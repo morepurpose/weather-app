@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anemo Skies</title>
+    <link rel="icon" href="images/logo.svg" type="image/x-icon" />
+  <script defer src="main.js"></script></head>
+  <body>
+    <div class="main-content">
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <img src="images/logo.svg" width="40" alt="Logo" />
+            <h1>Anemo Skies</h1>
+          </div>
+          <div class="form">
+            <form>
+              <label>
+                <img src="images/map-pin.svg" width="30" alt="Pin" />
+                <input
+                  type="text"
+                  name="location"
+                  value="manila"
+                  class="form-location"
+                />
+              </label>
+              <button type="submit">
+                <img
+                  src="images/magnifying-glass.svg"
+                  width="25"
+                  alt="Search Icon"
+                />
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="weather-card"></div>
+      </div>
+    </div>
+    <div class="loading-container" id="loadingContainer">
+      <div class="loading-spinner"></div>
+    </div>
+    <footer>
+      <p>
+        &copy; 2024
+        <a
+          href="https://github.com/srhqmp"
+          target="_blank"
+          rel="noopener noreferrer"
+          >@srhqmp</a
+        >. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
